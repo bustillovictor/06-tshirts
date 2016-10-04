@@ -39,22 +39,27 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   display: flex;
 
   &-btn {
-  flex-grow: 1;
-  padding: 0.4rem;
-  color: #4cb1f1;
-  border: 0.01rem #4cb1f1 solid;
+    flex-grow: 1;
+    padding: 0.4rem;
+    color: #4cb1f1;
+    border: 0.01rem #4cb1f1 solid;
+    background: none;
+
+    &:hover {
+      background: #4cb1f1;
+      color: green;
+    }
   }
 }
 
 .shop-item__actions-btnshop-menu {
- justify-content: center;
- align-items: flex-end;
-  }
+  justify-content: center;
+  align-items: flex-end;
+}
 
 .shop-menu {
   &__tooltip {
-    display: none;
-
+    display: flex;
 
   }
 }
